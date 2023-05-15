@@ -1,0 +1,54 @@
+*{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+      background-image: url(loja.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      font-family: 'DM Serif Display', serif;
+      font-size: xx-large;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(9, 19, 12, 0.712);
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+main{
+    width: 300px;
+    position: relative;
+}
+input{
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
+    border-radius: 10px ;
+    padding-left: 10px;
+}
+h1{
+    text-aling: center;
+    margin-bottom: 70px;
+    
+}
+.zaaap{
+    position:absolute;
+    right: 0px;
+    top: 15px;
+}
+.caixadetexto{
+    height: 40px;
+    border-radius: 10px ;
+    background-color: rgba(85, 173, 143, 0.658);
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+}
